@@ -1,0 +1,68 @@
+baseURL = "https://via.moe/"
+title = "Siege"
+author = "h0wardch3ng"
+copyright = ""
+paginate = 10
+theme = "paper"
+languageCode = "en-US"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = false
+
+[params]
+  description = "Can you give me one last kiss?"
+  disableHLJS = false
+  github = '0n3la57k155'
+
+[menu]
+  [[menu.main]]
+    identifier = "index"
+    name = "Index"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "/rss.xml"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = true
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
+[permalinks]
+  "post" = "/:filename/"
