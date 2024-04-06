@@ -11,7 +11,7 @@ enableInlineShortcodes = false
 [params]
   description = "quietpark"
   disableHLJS = false
-  github = ''
+# github = ''
 
 [menu]
   [[menu.main]]
