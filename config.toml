@@ -1,6 +1,6 @@
-baseURL = "https://via.moe/"
-title = "Siege"
-author = "h0wardch3ng"
+baseURL = "https://quietpark.vercel.app/"
+title = "quietpark"
+author = "quietpark"
 copyright = ""
 paginate = 10
 theme = "paper"
@@ -9,9 +9,9 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = false
 
 [params]
-  description = "Can you give me one last kiss?"
+  description = "quietpark"
   disableHLJS = false
-  github = '0n3la57k155'
+  github = ''
 
 [menu]
   [[menu.main]]
